@@ -181,6 +181,11 @@ void loop() {
 
 - **Link da Página:** [Monitoramento de Temperatura e Umidade](https://ryanbritodev.github.io/esp32-mahindra/src/html/index.html)
 
+## Referências:
+- [Monitoramento de Temperatura e Umidade](https://ryanbritodev.github.io/esp32-mahindra/src/html/index.html)
+- [Simulador Wokwi](https://wokwi.com/projects/407869921950393345)
+- [Canal de Processamento de Dados](https://thingspeak.com/channels/2642712)
+
 ## Créditos
 
 ### Gostaríamos de agradecer à **FIAP**, à **Tech Mahindra** e ao nosso professor pela oportunidade incrível de realizar esse projeto.
