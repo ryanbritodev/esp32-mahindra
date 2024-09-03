@@ -7,39 +7,45 @@
 
 <br>
 
-Este projeto desenvolvido como parte da entrega para a Sprint 3 do Challenge da Tech Mahindra na [FIAP](https://github.com/FIAP) demonstra uma aplicação de Internet das Coisas (IoT) usando o microcontrolador ESP32 para monitorar dados ambientais. Utilizando um sensor DHT22 e um Potenciômetro (utilizado para simular um velocímetro), o sistema mede continuamente a temperatura e umidade do ambiente onde se encontra o veículo, bem como sua velocidade atual, enviando esses dados para a nuvem via Wi-Fi, onde são armazenados e analisados em tempo real através do software ThingSpeak.
+Este projeto desenvolvido como parte da entrega para a Sprint 3 do Challenge da Tech Mahindra na [FIAP](https://github.com/FIAP) demonstra uma aplicação de Internet das Coisas (IoT) usando o microcontrolador ESP32 para monitorar dados ambientais e a velocidade de um carro de Fórmula E. Utilizando um sensor DHT22 e um Potenciômetro (utilizado para simular um velocímetro), o sistema mede continuamente a temperatura e umidade do ambiente onde se encontra o veículo, bem como sua velocidade atual, enviando esses dados para a nuvem via Wi-Fi, onde são armazenados e analisados em tempo real através do software ThingSpeak.
+
+<br>
+
+<img src="https://blog.indobot.co.id/wp-content/uploads/2022/01/4-2.png" alt="ThingSpeak" width="702px"/>
 
 ## Objetivo
 
-O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplicado no monitoramento inteligente de um veículo de Fórmula E. A aplicação permite o acompanhamento em tempo real das condições climáticas, como temperatura e umidade, além da velocidade do veículo. Esses dados são essenciais para evitar acidentes e otimizar estratégias de corrida, como a troca de pneus e ajustes no desempenho do carro, com base nas condições ambientais. Através da plataforma ThingSpeak, é possível visualizar e analisar esses dados de qualquer lugar, permitindo decisões rápidas e informadas durante as corridas.
+O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplicado no monitoramento inteligente de um veículo de Fórmula E. A aplicação permite o acompanhamento em tempo real das condições climáticas, como temperatura e umidade, além da velocidade do veículo. Esses dados são essenciais para evitar acidentes e otimizar estratégias de corrida, como a troca de pneus e ajustes no desempenho do carro, com base nas condições ambientais. Através da plataforma ThingSpeak, é possível visualizar e analisar esses dados de qualquer lugar, permitindo decisões rápidas durante as corridas.
 
 ## Componentes Utilizados
 
 - **Microcontrolador:** ESP32
-- **Sensor:** DHT22 (Temperatura e Umidade)
+- **Sensores:** DHT22 (Temperatura e Umidade) e Potênciometro (Velocidade)
 - **Comunicação:** Wi-Fi (Protocolo HTTP)
 - **Plataforma de Nuvem:** ThingSpeak
 
 ## Funcionalidades
 
-- Medição contínua da temperatura e umidade ambiente.
+- Medição contínua da temperatura e umidade ambiente, bem como a velocidade atual do veículo.
 - Transmissão dos dados para o canal ThingSpeak.
 - Visualização dos dados em tempo real através da plataforma ThingSpeak.
-- Interface web para visualização dos dados (utilizando HTML e CSS).
+- Interface web para visualização dos dados (utilizando HTML, CSS e JavaScript).
 
-## Estrutura do Projeto
+## Estrutura Principal do Projeto
 
-1. **ESP32 Code:**
-   - Código para o microcontrolador ESP32 para coletar dados do sensor DHT22 e enviá-los para o ThingSpeak via Wi-Fi.
+1. **Código-fonte:**
+   - Simulação do projeto utilizando o simulador [Wokwi](https://wokwi.com/projects/407869921950393345).
+   - Código para o microcontrolador ESP32 para coletar dados do sensor DHT22 e do Potênciometro e enviá-los para o ThingSpeak via Wi-Fi.
 
-2. **ThingSpeak:**
-   - Canal no ThingSpeak para receber e armazenar os dados de temperatura e umidade.
-   - Visualização dos dados em tempo real na plataforma ThingSpeak.
-
-3. **Interface Web:**
-   - Uma página HTML/CSS para exibir os dados em tempo real. A página inclui:
+3. **ThingSpeak:**
+   - Canal no ThingSpeak para receber, armazenar e exportar os dados de temperatura, umidade e temperatura.
+     
+4. **Interface Web:**
+   - Uma página web com HTML, CSS e JavaScript para exibir os dados em tempo real, incluindo:
+     - Interface gráfica front-end, utilizando ícones, imagens e HTML semântico.
      - Dados de temperatura.
      - Dados de umidade.
+     - Dados da velocidade atual do veículo.
      - Informações em tempo real atualizadas a cada 15 segundos.
 
 ## Requisitos
@@ -47,11 +53,12 @@ O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplic
 - **Hardware:**
   - Microcontrolador ESP32.
   - Sensor DHT22.
+  - Potênciometro ou Velocímetro.
   - Acesso à rede Wi-Fi.
 
 - **Software:**
   - Arduino IDE ou similar para programação do ESP32.
-  - Conta no ThingSpeak para criar e gerenciar o canal.
+  - Conta no ThingSpeak para criar e gerenciar o canal, bem como seus campos.
 
 ## Configuração
 
@@ -62,7 +69,7 @@ O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplic
   - `WiFi` - Biblioteca para a conexão Wi-Fi.
   - `HTTPClient` - Biblioteca para comunicação HTTP.
 
-- **Código de Exemplo:**
+# Código-Fonte utilizado no projeto:
 
 ```cpp
 #include <WiFi.h>
@@ -141,22 +148,29 @@ void loop() {
 ## 2. Configuração do ThingSpeak
 
 1. Crie uma conta no [ThingSpeak](https://thingspeak.com/).
-2. Crie um novo canal e anote o API Key para uso no código ESP32.
-3. Adicione dois campos:
+2. Crie um novo canal e anote sua respectiva API Key para uso no código do ESP32.
+3. Adicione três campos:
    - **Field1:** Temperatura (°C)
    - **Field2:** Umidade (%)
-
+   - **Field3:** Velocidade (km/h)
+   
 ## 3. Interface Web
 
 - **Arquivos:**
   - `index.html`: Arquivo HTML para exibição dos dados.
   - `style.css`: Arquivo CSS para estilização da página.
+  - `script.js`: Arquivo para tratamento dos dados recebidos da API key.
 
 - **Link da Página:** [Monitoramento de Temperatura e Umidade](https://ryanbritodev.github.io/esp32-mahindra/src/html/index.html)
 
-## Contribuições
+## Créditos
 
-Contribuições são bem-vindas! Se você tem sugestões para melhorias ou correções, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+### Gostaríamos de agradecer à __FIAP__, à __Tech Mahindra__ e ao nosso professor pela oportunidade incrível de realizar esse projeto e também aos participantes desse trabalho.
+- Prof. Paulo Marcotti PF2150
+- Arthur Cotrick Pagani RM554510
+- Diogo Leles Franciulli RM558487
+- Felipe Sousa de Oliveira RM559085
+- Ryan Brito Pereira Ramos RM554497
 
 ## Licença
 
