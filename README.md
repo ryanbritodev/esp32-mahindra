@@ -1,10 +1,17 @@
-# Monitoramento de Temperatura e Umidade com ESP32 e IoT
+# Mahindra Racing e IoT: Monitoramento de Temperatura, Velocidade e Umidade na Fórmula E com o ESP32
 
-Este projeto demonstra uma aplicação de Internet das Coisas (IoT) usando o microcontrolador ESP32 para monitorar dados ambientais. Utilizando um sensor DHT22, o sistema mede continuamente a temperatura e a umidade e envia esses dados para a nuvem via Wi-Fi, onde são armazenados e analisados em tempo real através do ThingSpeak.
+<div align="left">
+   <img src="https://resources.formula-e.pulselive.com/photo-resources/2023/12/12/1db5e5a8-79de-4c4e-9464-858ae488412f/LJP-Mahindra-S10-Livery-Launch-10-3-.jpg?width=1440&height=810" alt="Carro Mahindra Racing" width="500px"/> 
+   <img src="https://zbotic.in/wp-content/uploads/2022/10/4d35zrjm.png" alt="ESP32" width="282px"/>
+</div>
+
+<br>
+
+Este projeto desenvolvido como parte da entrega para a Sprint 3 do Challenge da Tech Mahindra na [FIAP](https://github.com/FIAP) demonstra uma aplicação de Internet das Coisas (IoT) usando o microcontrolador ESP32 para monitorar dados ambientais. Utilizando um sensor DHT22 e um Potenciômetro (utilizado para simular um velocímetro), o sistema mede continuamente a temperatura e umidade do ambiente onde se encontra o veículo, bem como sua velocidade atual, enviando esses dados para a nuvem via Wi-Fi, onde são armazenados e analisados em tempo real através do software ThingSpeak.
 
 ## Objetivo
 
-O objetivo deste projeto é mostrar como a tecnologia IoT pode ser utilizada para criar um sistema de monitoramento inteligente. A aplicação permite o acompanhamento das condições ambientais de qualquer lugar, utilizando a plataforma ThingSpeak para visualização e análise dos dados.
+O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplicado no monitoramento inteligente de um veículo de Fórmula E. A aplicação permite o acompanhamento em tempo real das condições climáticas, como temperatura e umidade, além da velocidade do veículo. Esses dados são essenciais para evitar acidentes e otimizar estratégias de corrida, como a troca de pneus e ajustes no desempenho do carro, com base nas condições ambientais. Através da plataforma ThingSpeak, é possível visualizar e analisar esses dados de qualquer lugar, permitindo decisões rápidas e informadas durante as corridas.
 
 ## Componentes Utilizados
 
