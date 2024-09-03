@@ -39,6 +39,8 @@ O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplic
 - Visualização dos dados em tempo real através da plataforma ThingSpeak.
 - Interface web para visualização dos dados (utilizando HTML, CSS e JavaScript).
 
+<img align="center" alt="HTML5" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img align="center" alt="CSS3" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> <img align="center" alt="JavaScript" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+
 ## Estrutura Principal do Projeto
 
 1. **Código-fonte:**
