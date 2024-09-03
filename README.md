@@ -7,7 +7,7 @@
 
 <br>
 
-Este projeto desenvolvido como parte da entrega para a Sprint 3 do Challenge da Tech Mahindra na [FIAP](https://github.com/FIAP) demonstra uma aplicação de Internet das Coisas (IoT) usando o microcontrolador ESP32 para monitorar dados ambientais e a velocidade de um carro de Fórmula E. Utilizando um sensor DHT22 e um Potenciômetro (utilizado para simular um velocímetro), o sistema mede continuamente a temperatura e umidade do ambiente onde se encontra o veículo, bem como sua velocidade atual, enviando esses dados para a nuvem via Wi-Fi, onde são armazenados e analisados em tempo real através do software ThingSpeak.
+Este projeto desenvolvido como parte da entrega para a **Sprint 3 do Challenge da Tech Mahindra na [FIAP](https://github.com/FIAP)** demonstra uma aplicação de **Internet das Coisas (IoT)** usando o microcontrolador **ESP32** para monitorar dados ambientais e a velocidade de um carro de Fórmula E. Utilizando um sensor DHT22 e um Potenciômetro (utilizado para simular um velocímetro), o sistema mede continuamente a temperatura e umidade do ambiente onde se encontra o veículo, bem como sua velocidade atual, enviando esses dados para a **nuvem** via Wi-Fi, onde são armazenados e analisados em tempo real através do software **[ThingSpeak](https://thingspeak.com/)**.
 
 <br>
 
@@ -15,7 +15,7 @@ Este projeto desenvolvido como parte da entrega para a Sprint 3 do Challenge da 
 
 ## Objetivo
 
-O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplicado no monitoramento inteligente de um veículo de Fórmula E. A aplicação permite o acompanhamento em tempo real das condições climáticas, como temperatura e umidade, além da velocidade do veículo. Esses dados são essenciais para evitar acidentes e otimizar estratégias de corrida, como a troca de pneus e ajustes no desempenho do carro, com base nas condições ambientais. Através da plataforma ThingSpeak, é possível visualizar e analisar esses dados de qualquer lugar, permitindo decisões rápidas durante as corridas.
+O objetivo deste projeto é **demonstrar como o uso de sistemas IoT pode ser aplicado no monitoramento inteligente de um veículo de Fórmula E.** A aplicação permite o acompanhamento em tempo real das condições climáticas, como **temperatura e umidade**, além da **velocidade** do veículo. Esses dados são essenciais para **evitar acidentes e otimizar estratégias de corrida**, como a troca de pneus e ajustes no desempenho do carro, com base nas condições ambientais. Através da plataforma **[ThingSpeak](https://thingspeak.com/)**, é possível visualizar e analisar esses dados de qualquer lugar, permitindo decisões rápidas durante as corridas.
 
 <br>
 
@@ -26,7 +26,7 @@ O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplic
 - **Microcontrolador:** ESP32
 - **Sensores:** DHT22 (Temperatura e Umidade) e Potênciometro (Velocidade)
 - **Comunicação:** Wi-Fi (Protocolo HTTP)
-- **Plataforma de Nuvem:** ThingSpeak
+- **Plataforma de Nuvem:** [ThingSpeak](https://thingspeak.com/)
 
 <br>
 
@@ -35,8 +35,8 @@ O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplic
 ## Funcionalidades
 
 - Medição contínua da temperatura e umidade ambiente, bem como a velocidade atual do veículo.
-- Transmissão dos dados para o canal ThingSpeak.
-- Visualização dos dados em tempo real através da plataforma ThingSpeak.
+- Transmissão dos dados para o canal [ThingSpeak](https://thingspeak.com/).
+- Visualização dos dados em tempo real através da plataforma [ThingSpeak](https://thingspeak.com/).
 - Interface web para visualização dos dados (utilizando HTML, CSS e JavaScript).
 
 <img align="center" alt="HTML5" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img align="center" alt="CSS3" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> <img align="center" alt="JavaScript" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -45,7 +45,7 @@ O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplic
 
 1. **Código-fonte:**
    - Simulação do projeto utilizando o simulador [Wokwi](https://wokwi.com/projects/407869921950393345).
-   - Código para o microcontrolador ESP32 para coletar dados do sensor DHT22 e do Potênciometro e enviá-los para o ThingSpeak via Wi-Fi.
+   - Código para o microcontrolador ESP32 para coletar dados do sensor DHT22 e do Potênciometro e enviá-los para o [ThingSpeak](https://thingspeak.com/) via Wi-Fi.
 
 3. **ThingSpeak:**
    - Canal no ThingSpeak para receber, armazenar e exportar os dados de temperatura, umidade e temperatura.
@@ -83,9 +83,9 @@ O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplic
 ### 1. Configuração do ESP32
 
 - **Bibliotecas Necessárias:**
-  - `DHT` - Biblioteca para o sensor DHT22.
-  - `WiFi` - Biblioteca para a conexão Wi-Fi.
-  - `HTTPClient` - Biblioteca para comunicação HTTP.
+  - **`DHT`** - Biblioteca para o sensor DHT22.
+  - **`WiFi`** - Biblioteca para a conexão Wi-Fi.
+  - **`HTTPClient`** - Biblioteca para comunicação HTTP.
 
 # Código-Fonte utilizado no projeto:
 
@@ -192,7 +192,7 @@ void loop() {
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a **Licença MIT** - veja o [LICENSE](LICENSE) para mais detalhes.
 
 ## Todos os direitos reservados à FIAP ©️
 <div style="display: flex; justify-content: space-between;">
