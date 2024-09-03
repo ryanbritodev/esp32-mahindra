@@ -1,3 +1,5 @@
+// Wokwi Simulation: https://wokwi.com/projects/407869921950393345
+
 const channelID = '2642712'; // ID do Canal ThingSpeak
 const readAPIKey = 'QD97WQCRFVW3D4DZ'; // Read API Key do Canal
 
