@@ -17,6 +17,10 @@ Este projeto desenvolvido como parte da entrega para a Sprint 3 do Challenge da 
 
 O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplicado no monitoramento inteligente de um veículo de Fórmula E. A aplicação permite o acompanhamento em tempo real das condições climáticas, como temperatura e umidade, além da velocidade do veículo. Esses dados são essenciais para evitar acidentes e otimizar estratégias de corrida, como a troca de pneus e ajustes no desempenho do carro, com base nas condições ambientais. Através da plataforma ThingSpeak, é possível visualizar e analisar esses dados de qualquer lugar, permitindo decisões rápidas durante as corridas.
 
+<br>
+
+<img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/charts-thingspeak.png?raw=true" alt="Charts ThingSpeak" widht="300px"/>
+
 ## Componentes Utilizados
 
 - **Microcontrolador:** ESP32
