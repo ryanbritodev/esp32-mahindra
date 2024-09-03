@@ -19,7 +19,7 @@ O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplic
 
 <br>
 
-<img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/charts-thingspeak.png?raw=true" alt="Charts ThingSpeak" widht="300px"/>
+<img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/charts-thingspeak.png?raw=true" alt="Charts ThingSpeak"/>
 
 ## Componentes Utilizados
 
@@ -27,6 +27,10 @@ O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplic
 - **Sensores:** DHT22 (Temperatura e Umidade) e Potênciometro (Velocidade)
 - **Comunicação:** Wi-Fi (Protocolo HTTP)
 - **Plataforma de Nuvem:** ThingSpeak
+
+<br>
+
+<img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/esp32.png?raw=true" alt="Wokwi Circuit"/>
 
 ## Funcionalidades
 
