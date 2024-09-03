@@ -61,8 +61,8 @@ O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplic
 <br>
 
 <div align="left">
-   <img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/plataform.png?raw=true" alt="Plataform" width="500px"/>
-   <img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/source.png?raw=true" alt="Code" width="500px"/>
+   <img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/plataform.png?raw=true" alt="Plataform" width="400px"/>
+   <img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/source.png?raw=true" alt="Code" width="400px"/>
 </div>
 
 ## Requisitos
