@@ -76,6 +76,7 @@ O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplic
 - **Software:**
   - Arduino IDE ou similar para compilação do código ao ESP32 ou simulador para realizar o processamento dos dados (como [Wokwi](https://wokwi.com/)).
   - Conta no ThingSpeak para criar e gerenciar o canal, bem como seus campos.
+  - **Link do canal no ThingSpeak:** [Dashboard de Dados](https://thingspeak.com/channels/2642712)
 
 ## Configuração
 
