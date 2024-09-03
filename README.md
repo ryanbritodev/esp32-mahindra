@@ -57,6 +57,13 @@ O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplic
      - Dados de umidade.
      - Dados da velocidade atual do veículo.
      - Informações em tempo real atualizadas a cada 15 segundos.
+    
+<br>
+
+<div align="left">
+   <img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/plataform.png?raw=true" alt="Plataform" width="500px"/>
+   <img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/source.png?raw=true" alt="Code" width="500px"/>
+</div>
 
 ## Requisitos
 
@@ -67,7 +74,7 @@ O objetivo deste projeto é demonstrar como o uso de sistemas IoT pode ser aplic
   - Acesso à rede Wi-Fi.
 
 - **Software:**
-  - Arduino IDE ou similar para programação do ESP32.
+  - Arduino IDE ou similar para compilação do código ao ESP32 ou simulador para realizar o processamento dos dados (como [Wokwi](https://wokwi.com/)).
   - Conta no ThingSpeak para criar e gerenciar o canal, bem como seus campos.
 
 ## Configuração
