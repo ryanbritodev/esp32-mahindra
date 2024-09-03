@@ -182,7 +182,7 @@ void loop() {
 
 ## Créditos
 
-### Gostaríamos de agradecer à __FIAP__, à __Tech Mahindra__ e ao nosso professor pela oportunidade incrível de realizar esse projeto e também aos participantes desse trabalho.
+### Gostaríamos de agradecer à **FIAP**, à **Tech Mahindra** e ao nosso professor pela oportunidade incrível de realizar esse projeto.
 - Prof. Paulo Marcotti PF2150
 - Arthur Cotrick Pagani RM554510
 - Diogo Leles Franciulli RM558487
