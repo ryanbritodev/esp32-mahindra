@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados do ThingSpeak</title>
+    <link rel="stylesheet" href="../../public/assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="../../public/assets/images/MAHINDRA-LOGO.png" alt="Logo Mahindra">
+            <h2 id="date" class="data">2 de setembro de 2024</h2>
+            <h1 id="time" class="tempo">22:04</h1>
+        </div>
+        <img class="car" src="../../public/assets/images/mahindra-car.png" alt="Carro Mahindra">
+        <div class="data-container">
+            <div id="loading" class="carregando">
+                <div class="loader"></div>
+            </div>
+            <div id="data" class="data-grid">
+                <div class="data-item temperatura">
+                    <img src="../../public/assets/images/temperature.png" alt="Ícone Temperatura" class="icon">
+                    <div class="data-text">
+                        <h2>Temperatura</h2>
+                        <p id="temp">--°C</p>
+                    </div>
+                </div>
+                <div class="data-item velocidade">
+                    <img src="../../public/assets/images/speedometer.png" alt="Ícone Velocidade" class="icon">
+                    <div class="data-text">
+                        <h2>Velocidade</h2>
+                        <p id="speed">-- km/h</p>
+                    </div>
+                </div>
+                <div class="data-item umidade">
+                    <img src="../../public/assets/images/humidity.png" alt="Ícone Umidade" class="icon">
+                    <div class="data-text">
+                        <h2>Umidade</h2>
+                        <p id="humidity">--%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

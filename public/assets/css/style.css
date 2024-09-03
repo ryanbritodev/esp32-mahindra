@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DD052B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 871px;
+    height: 546px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    width: 500px;
+    margin-left: 34px;
+    line-height: 46px;
+}
+
+.info img {
+    width: 400px;
+}
+
+.info h2 {
+    font-family: "Krona One", sans-serif;
+    font-size: 22px;
+    color: #333333;
+}
+
+.info h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 69px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.car {
+    position: absolute;
+    top: -47px;
+    right: -157px;
+    width: 620px;
+    transform: rotate(3deg);
+    z-index: 2;
+}
+
+.data-container {
+    background-color: #333333;
+    border-bottom-left-radius: 33px;
+    border-bottom-right-radius: 33px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.data-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.data-item {
+    flex: 1;
+    margin: 0 10px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.data-item.velocidade {
+    line-height: 36px;
+}
+
+.data-item.velocidade p {
+    margin-top: 18px;
+}
+
+.data-item.umidade {
+    line-height: 35px;
+}
+
+.data-item.umidade p {
+    margin-top: 19px;
+}
+
+.data-item h2 {
+    font-family: "Krona One", sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #cccccc;
+}
+
+.data-item p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
