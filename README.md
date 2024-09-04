@@ -183,11 +183,11 @@ void loop() {
       // Mantém o LED aceso
       digitalWrite(ALERT_LED_PIN, HIGH);
       // Ativa o Buzzer
-      digitalWrite(BUZZER_PIN, HIGH);
+      tone(BUZZER_PIN, 1000);
     } else {
       // Desliga o LED e o Buzzer quando a distância é maior que 100 cm
       digitalWrite(ALERT_LED_PIN, LOW);
-      digitalWrite(BUZZER_PIN, LOW);
+      noTone(BUZZER_PIN);
     }
 
     // Envio de dados para o ThingSpeak
