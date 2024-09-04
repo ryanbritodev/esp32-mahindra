@@ -20,6 +20,7 @@ O objetivo deste projeto é **demonstrar como o uso de sistemas IoT pode ser apl
 <br>
 
 <img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/charts-thingspeak.png?raw=true" alt="Charts ThingSpeak"/>
+<img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/draft.jpg?raw=true" width="718px" alt="Draft"/>
 
 ## Componentes Utilizados
 
