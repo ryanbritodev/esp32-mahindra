@@ -7,7 +7,7 @@
 
 <br>
 
-Este projeto desenvolvido como parte da entrega para a **Sprint 3 do Challenge da Tech Mahindra na [FIAP](https://github.com/FIAP)** demonstra uma aplicação de **Internet das Coisas (IoT)** usando o microcontrolador **ESP32** para monitorar dados ambientais e a velocidade de um carro de Fórmula E, além de um sistema de alerta de proximidade. Utilizando um Sensor DHT22, um Potenciômetro (utilizado para simular um velocímetro) e um  Sensor Ultrasônico de Distância HC-SR04 (em conjunto de um Buzzer e um LED), o sistema mede continuamente a temperatura e umidade do ambiente onde se encontra o veículo, bem como sua velocidade atual, enviando esses dados para a **nuvem** via Wi-Fi, onde são armazenados e analisados em tempo real através do software **[ThingSpeak](https://thingspeak.com/)**. Localmente, ele emite avisos ao piloto quando seu veículo se encontra muito próximo em relação ao veículo da frente (1 metro ou menos de distância). 
+Este projeto desenvolvido como parte da entrega para a **Sprint 3 do Challenge da Tech Mahindra na [FIAP](https://github.com/FIAP)** demonstra uma aplicação de **Internet das Coisas (IoT)** usando o microcontrolador **ESP32** para monitorar dados ambientais e a velocidade de um carro de Fórmula E, além de um sistema de alerta de proximidade. Utilizando um Sensor DHT22, um Potenciômetro (utilizado para simular um velocímetro) e um  Sensor Ultrassônico de Distância HC-SR04 (em conjunto de um Buzzer e um LED), o sistema mede continuamente a temperatura e umidade do ambiente onde se encontra o veículo, bem como sua velocidade atual, enviando esses dados para a **nuvem** via Wi-Fi, onde são armazenados e analisados em tempo real através do software **[ThingSpeak](https://thingspeak.com/)**. Localmente, ele emite avisos ao piloto quando seu veículo se encontra muito próximo em relação ao veículo da frente (1 metro ou menos de distância). 
 
 <br>
 
@@ -24,7 +24,7 @@ O objetivo deste projeto é **demonstrar como o uso de sistemas IoT pode ser apl
 ## Componentes Utilizados
 
 - **Microcontrolador:** ESP32
-- **Sensores:** DHT22 (Temperatura e Umidade), Potênciometro (Velocidade), Sensor Ultrasônico HC-SR04 (Distância), LED Vermelho e Buzzer (Avisos).
+- **Sensores:** DHT22 (Temperatura e Umidade), Potênciometro (Velocidade), Sensor Ultrassônico HC-SR04 (Distância), LED Vermelho e Buzzer (Avisos).
 - **Comunicação:** Wi-Fi (Protocolo HTTP)
 - **Plataforma de Nuvem:** [ThingSpeak](https://thingspeak.com/)
 
@@ -71,6 +71,9 @@ O objetivo deste projeto é **demonstrar como o uso de sistemas IoT pode ser apl
   - Microcontrolador ESP32.
   - Sensor DHT22.
   - Potênciometro ou Velocímetro.
+  - Sensor Ultrassônico HC-SR04
+  - LED
+  - Buzzer
   - Acesso à rede Wi-Fi.
 
 - **Software:**
