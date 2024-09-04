@@ -30,7 +30,7 @@ O objetivo deste projeto é **demonstrar como o uso de sistemas IoT pode ser apl
 
 <br>
 
-<img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/esp32.png?raw=true" alt="Wokwi Circuit"/>
+<img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/esp32-circuit.png?raw=true" alt="Wokwi Circuit"/>
 
 ## Funcionalidades
 
