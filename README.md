@@ -66,6 +66,9 @@ O objetivo deste projeto é **demonstrar como o uso de sistemas IoT pode ser apl
    <img src="https://github.com/ryanbritodev/esp32-mahindra/blob/main/README.images/source.png?raw=true" alt="Code" width="400px"/>
 </div>
 
+### Link do design da Interface Web feita no Figma: 
+https://www.figma.com/design/aGho9a2oJBcRdUaVrm8pyD/Card-Leitura-ESP32-Sprint-Mahindra?node-id=2-2&t=GztA6oirxVWHzhXZ-1
+
 ## Requisitos
 
 - **Hardware:**
