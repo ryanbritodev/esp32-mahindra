@@ -240,6 +240,7 @@ void loop() {
 - **Link da Página:** [Monitoramento de Temperatura, Umidade e Velocidade](https://ryanbritodev.github.io/esp32-mahindra/src/html/index.html)
 
 ## Referências:
+- [Vídeo no YouTube](https://youtu.be/M87xPSovZtU)
 - [Monitoramento de Temperatura, Umidade e Velocidade](https://ryanbritodev.github.io/esp32-mahindra/src/html/index.html)
 - [Simulador Wokwi](https://wokwi.com/projects/407869921950393345)
 - [Canal de Processamento de Dados](https://thingspeak.com/channels/2642712)
@@ -248,7 +249,7 @@ void loop() {
 
 ### Gostaríamos de agradecer à **FIAP**, à **Tech Mahindra** e ao nosso professor pela oportunidade incrível de realizar esse projeto.
 - Prof. Paulo Marcotti PF2150
-- Arthur Cotrick Pagani RM554510
+- Arthur Cotrick Pagani RM554510 
 - Diogo Leles Franciulli RM558487
 - Felipe Sousa de Oliveira RM559085
 - Ryan Brito Pereira Ramos RM554497
